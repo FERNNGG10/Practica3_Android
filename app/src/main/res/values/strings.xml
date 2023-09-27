@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Practica3_android</string>
+    <string name="TextoBienvenida">Bienvendio</string>
 </resources>

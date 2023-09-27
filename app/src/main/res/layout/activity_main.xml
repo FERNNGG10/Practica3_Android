@@ -27,6 +27,8 @@
                 android:gravity="bottom|end"
                 ></TextView>
 
+
+
             <Button
                 android:id="@+id/AC"
                 android:layout_width="100dp"
@@ -268,6 +270,20 @@
                 app:layout_constraintHorizontal_bias="0.35"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/dos"
+                app:layout_constraintBottom_toBottomOf="parent"></Button>
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/black"
+                android:text="BTN2"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:layout_constraintHorizontal_bias="0.35"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/uno"
                 app:layout_constraintBottom_toBottomOf="parent"></Button>
 
             <Button
